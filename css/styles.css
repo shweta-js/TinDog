@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+#title{
+    background-color:#dc3545;
+    color:#fff; 
+    position:relative;
+    z-index: -1;
+}
+.title-heading{
+  font-family:'Fredoka One', cursive;
+  font-size: 4.5rem;
+
+}
+.title-index{
+  margin-left:100px;
+}
+h1{  
+   font-size: 1.5rem;
+    line-height:1.5;
+}
+h2{
+    font-size:1rem;  
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    
+    text-align:center;
+
+}
+p{
+    color: #8f8f8f;
+}
+
+#features{
+  padding:7% 15%; 
+  position: relative;
+  z-index:1;
+ 
+}
+
+.feature-box{
+    text-align:center;
+  
+}
+.feature-title{
+  padding-bottom:20px;
+}
+.icon{
+    color:#dc3545;
+    padding-bottom:50px;
+}
+.fas:hover {
+    color:#d67979;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  
+}
+
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 3rem;
+font-weight: bold;
+margin-left: 100px;
+
+}
+
+.nav-item{
+  padding:10 18px;
+  margin:30px;
+  font-weight:bold;
+  
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* Download Button */
+.download-button{
+    margin:5% 3% 5% 0;
+}
+/* Title Image */
+.title-image {
+    width:43%;
+    transform: rotate(25deg);
+    position:absolute;   
+}
+.white-section{
+  background-color: #fff;
+  position:absolute;
+  z-index:1
+}
+/* Testimonial Section */
+#testimonials {
+    background-color:#dc3545;
+    text-align:center; 
+    color:#fff;
+    
+  }
+  
+  .testimonial-text {
+    text-align:center; 
+    font-size: 3rem;
+    line-height: 1.5;  
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+
+  #press {
+    background-color: #dc3545;
+    padding-bottom: 3%;
+    padding-left:20%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+    padding-left: 3%;
+  }
+  /* Pricing Section */
+
+#pricing {
+    padding: 100px;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  .card-body{
+    text-align:center;
+   
+  }
+ 
+#cta{
+  padding-top:4rem;
+  background-color:#dc3545;
+}
+.cta-footer{
+  
+  color:#fff; 
+  font-size:4rem;
+}
+.cta-div{
+  margin-left:40%;
+}
+#footer{
+ margin:50px 70px 50px;
+ padding-left:35%;
+
+}
+.social-icon {
+  padding:20px;
+}
+p{
+  text-align:center;
+}
+ 
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
